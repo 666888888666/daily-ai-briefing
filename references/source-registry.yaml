@@ -1,0 +1,39 @@
+version: 1
+policy:
+  primary_rule: "同一事件存在多个来源时，优先引用更高 Priority 的原始来源；低 Priority 来源只用于补背景或交叉验证。"
+  reliability:
+    A: stable
+    B: mostly_stable
+    C: partial_or_manual
+    D: difficult_to_monitor
+priorities:
+  P0: "Primary Source｜官方 Blog、Changelog、Docs、GitHub、论文、认证官方账号"
+  P1: "First-party People｜CEO、核心产品负责人、核心研究员、项目负责人"
+  P2: "Builder / Developer｜Zara Follow Builders、独立开发者、一线研究者、GitHub、HN"
+  P3: "High-quality Media｜Reuters、Bloomberg、FT、WSJ、财新、晚点"
+  P4: "Community｜Reddit、小红书普通用户、微博普通用户、论坛"
+  P5: "Aggregation / Repost｜资讯聚合、二次转载、营销号"
+sources:
+  - {id: zara-x, name: Zara Follow Builders X Feed, type: builder_feed, company: Zara Follow Builders, url: "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json", fetch_method: json, reliability: B, priority: P2}
+  - {id: zara-podcasts, name: Zara Podcast Feed, type: podcast_feed, company: Zara Follow Builders, url: "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json", fetch_method: json, reliability: B, priority: P2}
+  - {id: zara-blogs, name: Zara Blog Feed, type: official_feed, company: Zara Follow Builders, url: "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json", fetch_method: json, reliability: B, priority: P0}
+  - {id: openai-news, name: OpenAI News, type: official_blog, company: OpenAI, url: "https://openai.com/news/", fetch_method: web, reliability: A, priority: P0}
+  - {id: anthropic-news, name: Anthropic Newsroom, type: official_blog, company: Anthropic, url: "https://www.anthropic.com/news", fetch_method: web, reliability: A, priority: P0}
+  - {id: deepmind-blog, name: Google DeepMind Blog, type: official_blog, company: Google DeepMind, url: "https://deepmind.google/blog/", fetch_method: rss, reliability: A, priority: P0}
+  - {id: google-ai, name: Google AI Blog, type: official_blog, company: Google, url: "https://blog.google/technology/ai/", fetch_method: rss, reliability: A, priority: P0}
+  - {id: meta-ai, name: Meta AI, type: official_blog, company: Meta, url: "https://ai.meta.com/blog/", fetch_method: web, reliability: A, priority: P0}
+  - {id: xai-news, name: xAI News, type: official_blog, company: xAI, url: "https://x.ai/news", fetch_method: web, reliability: B, priority: P0}
+  - {id: nvidia-ai, name: NVIDIA AI Blog, type: official_blog, company: NVIDIA, url: "https://blogs.nvidia.com/blog/category/deep-learning/", fetch_method: rss, reliability: A, priority: P0}
+  - {id: github-changelog, name: GitHub Changelog, type: changelog, company: GitHub, url: "https://github.blog/changelog/", fetch_method: rss, reliability: A, priority: P0}
+  - {id: cursor-changelog, name: Cursor Changelog, type: changelog, company: Cursor, url: "https://cursor.com/changelog", fetch_method: web, reliability: A, priority: P0}
+  - {id: huggingface-blog, name: Hugging Face Blog, type: official_blog, company: Hugging Face, url: "https://huggingface.co/blog", fetch_method: rss, reliability: A, priority: P0}
+  - {id: qwen-blog, name: Qwen Blog, type: official_blog, company: Alibaba Qwen, url: "https://qwen.ai/blog", fetch_method: web, reliability: A, priority: P0}
+  - {id: qwen-github, name: Qwen GitHub, type: github, company: Alibaba Qwen, url: "https://github.com/QwenLM", fetch_method: github, reliability: A, priority: P0}
+  - {id: deepseek-news, name: DeepSeek News, type: official_web, company: DeepSeek, url: "https://www.deepseek.com/", fetch_method: web, reliability: A, priority: P0}
+  - {id: deepseek-github, name: DeepSeek GitHub, type: github, company: DeepSeek, url: "https://github.com/deepseek-ai", fetch_method: github, reliability: A, priority: P0}
+  - {id: minimax-news, name: MiniMax News, type: official_blog, company: MiniMax, url: "https://www.minimax.io/news", fetch_method: web, reliability: A, priority: P0}
+  - {id: moonshot-github, name: Moonshot AI GitHub, type: github, company: Moonshot AI, url: "https://github.com/MoonshotAI", fetch_method: github, reliability: A, priority: P0}
+  - {id: seed-github, name: ByteDance Seed GitHub, type: github, company: ByteDance Seed, url: "https://github.com/ByteDance-Seed", fetch_method: github, reliability: A, priority: P0}
+  - {id: modelscope, name: ModelScope, type: model_ecosystem, company: Alibaba, url: "https://modelscope.cn/", fetch_method: web, reliability: B, priority: P2}
+  - {id: hacker-news, name: Hacker News, type: builder_community, company: Y Combinator, url: "https://news.ycombinator.com/", fetch_method: rss, reliability: A, priority: P2}
+  - {id: reuters-ai, name: Reuters AI, type: media, company: Reuters, url: "https://www.reuters.com/technology/artificial-intelligence/", fetch_method: search, reliability: B, priority: P3}
