@@ -1,0 +1,16 @@
+{
+  "run_id": "YYYY-MM-DDTHH:mm:ss+08:00",
+  "timezone": "Asia/Shanghai",
+  "window": {"start": "", "end": "", "grace_hours": 48},
+  "counts": {
+    "raw_candidates": 0,
+    "after_dedup": 0,
+    "hard_rejects": 0,
+    "selected": 0,
+    "confidence": {"S": 0, "A": 0, "B": 0, "C": 0}
+  },
+  "score_distribution": {"20_25": 0, "16_19": 0, "12_15": 0, "below_12": 0},
+  "selected_events": [],
+  "rejected_events": [{"candidate_id": "", "reason": ""}],
+  "source_health": [{"source_id": "", "status": "ok", "last_success": "", "consecutive_failures": 0, "reliability": "A"}]
+}
