@@ -1,0 +1,14 @@
+{
+  "lookback_hours": 48,
+  "timeout_seconds": 25,
+  "sources": [
+    {"id": "zara-x", "name": "Zara Follow Builders X", "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json", "format": "json", "priority": "P2", "source_type": "builder"},
+    {"id": "zara-podcasts", "name": "Zara Podcasts", "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json", "format": "json", "priority": "P2", "source_type": "podcast"},
+    {"id": "zara-blogs", "name": "Zara Official Blogs", "url": "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json", "format": "json", "priority": "P0", "source_type": "official_blog"},
+    {"id": "google-ai", "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "format": "rss", "priority": "P0", "source_type": "official_blog"},
+    {"id": "deepmind", "name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "format": "rss", "priority": "P0", "source_type": "official_blog"},
+    {"id": "github-changelog", "name": "GitHub Changelog", "url": "https://github.blog/changelog/feed/", "format": "rss", "priority": "P0", "source_type": "changelog"},
+    {"id": "huggingface-blog", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "format": "rss", "priority": "P0", "source_type": "official_blog"},
+    {"id": "hacker-news", "name": "Hacker News", "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+agent", "format": "rss", "priority": "P2", "source_type": "builder_community"}
+  ]
+}
