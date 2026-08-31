@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily AI Briefing"
+  short_description: "把公共 AI 信号筛选成经过核验、带产品视角的中文日报"
+  default_prompt: "生成今天的 AI Briefing"
