@@ -1,368 +1,422 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T10:50:20.477782Z",
+  "generated_at": "2026-09-06T11:14:32.168379Z",
   "timezone": "Asia/Shanghai",
   "window": {
     "lookback_hours": 48,
-    "cutoff_utc": "2026-09-03T10:50:20.477782Z"
+    "cutoff_utc": "2026-09-04T11:14:32.168379Z"
   },
   "notice": "Candidate feed only. Every item must be verified before publication.",
   "source_health": [
     {
       "source_id": "zara-x",
       "status": "ok",
-      "items": 26,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "items": 25,
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "zara-podcasts",
       "status": "ok",
       "items": 0,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "zara-blogs",
       "status": "ok",
       "items": 2,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "google-ai",
       "status": "ok",
       "items": 0,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "deepmind",
       "status": "ok",
-      "items": 1,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "items": 0,
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "github-changelog",
       "status": "ok",
-      "items": 10,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "items": 3,
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "huggingface-blog",
       "status": "ok",
-      "items": 1,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "items": 0,
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     },
     {
       "source_id": "hacker-news",
       "status": "ok",
       "items": 20,
-      "fetched_at": "2026-09-05T10:50:20.477782Z"
+      "fetched_at": "2026-09-06T11:14:32.168379Z"
     }
   ],
   "candidates": [
     {
-      "candidate_id": "e47bb4f046036f96",
-      "title": "Show HN: I built an AI that audits businesses. It's first job was to catch me",
+      "candidate_id": "30507deb8591ef9b",
+      "title": "Pigeon, a signed Pass for what a sub-agent may do",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://www.moltybeeai.com/#pricing",
-      "publish_time": "2026-09-05T10:48:04Z",
-      "raw_content": "I built an AI that audits businesses. I ran it on my own startup. It caught me over-crediting my own business. Score: 34/100. It cut my own score. Most founders would hide that. I shipped it anyway. That’s the point. 7 agents. One verdict on your revenue. Scored PDF report in less than hours. At $98. Find out exactly where your business is leaking now → moltybeeai.com To build the OPERATING INTELLIGENCE LAYER for modern organizations, businesses & startups. To help businesses globally unlock exponential productivity, efficiency & leveraged growth through AI-NATIVE intelligence systems. To build a global OPERATING INTELLIGENCE LAYER for modern organizations, businesses & startups. MoltyBeeAI™ exists to build that future. Businesses everywhere are rushing to adopt AI. Some don't even know where to start, hiring internal AI talent grows increasingly more & more expensive by the day. Most start by buying tools. (With little, to no clear ROI) We believe that's backwards. Before implementing AI, companies should understand exactly where AI will create the greatest business impact. That's why I built MoltyBeeAI™, to help businesses globally identify exactly where their business, revenue or operations leak, gaps & hidden inefficiencies or bottlenecks affecting growth, strategy, productivity & revenue. I'm Sihle Dimaza, Founder & Operator of MoltyBeeAI™ The audits you buy today at moltybeeai.com are PHASE 1/4. •Building MoltyBeeAI™ in public. Happy to share more. If you're interested. Find out exactly where your business is leaking now → moltybeeai.com Comments URL: https://news.ycombinator.com/item?id=49575248 Points: 1 # Comments: 0",
-      "author": "DIMAZA",
+      "url": "https://github.com/pigeonlabsHQ/pigeon",
+      "publish_time": "2026-09-06T10:47:19Z",
+      "raw_content": "Article URL: https://github.com/pigeonlabsHQ/pigeon Comments URL: https://news.ycombinator.com/item?id=49585209 Points: 3 # Comments: 0",
+      "author": "pigeonlabshq",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "aa127d4ea2933f87",
-      "title": "Reverse engineering the Meta RayBan Stories to avoid using Meta AI spyware",
+      "candidate_id": "5000481d236605ad",
+      "title": "Show HN: Wayfinder – A reference implementation for evaluating AI applications",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://github.com/KonradIT/storiesclient",
-      "publish_time": "2026-09-05T10:46:06Z",
-      "raw_content": "Article URL: https://github.com/KonradIT/storiesclient Comments URL: https://news.ycombinator.com/item?id=49575233 Points: 1 # Comments: 0",
-      "author": "konraditurbe",
+      "url": "https://github.com/DivakarUngatla/wayfinder",
+      "publish_time": "2026-09-06T10:45:53Z",
+      "raw_content": "Testing is critical to software applications — first to make sure they reliably serve the purpose they were built for, and then to make sure they stay that way as they grow, evolve and change. The same applies to AI applications as well. But testing AI applications is very different from testing classic software applications, especially because of their non-deterministic nature. It is very important for AI Engineers to develop a deep understanding of AI Evaluation to be able to build reliable AI applications and ship changes faster without breaking their existing behavior. AI Evaluation is often presented as a long list of independent techniques: Rule-Based Evaluation, Human Evaluation, LLM-as-a-Judge, Offline Evaluation, Online Evaluation, Component Evaluation and End-to-End Evaluation. But in practice they all complement and build on each other. I built Wayfinder, a reference implementation where I explore these concepts progressively using the same AI application. My goal was to build an intuition for how the different evaluation techniques fit together, and how to turn them into an evaluation strategy for an AI application. I'd be interested to hear how others are approaching evaluation in production AI applications and what you think is missing from this implementation. Comments URL: https://news.ycombinator.com/item?id=49585201 Points: 2 # Comments: 0",
+      "author": "divakarungatla",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "2bb79c003490e47f",
-      "title": "Toolcall-doctor – Shrink broken LLM tool-call reproducers",
+      "candidate_id": "781539464881e878",
+      "title": "Nvidia is the central bank of AI",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://github.com/aldi949/toolcall-doctor",
-      "publish_time": "2026-09-05T09:46:47Z",
-      "raw_content": "Article URL: https://github.com/aldi949/toolcall-doctor Comments URL: https://news.ycombinator.com/item?id=49574887 Points: 1 # Comments: 1",
-      "author": "Aldi949",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "publish_time": "2026-09-06T10:20:13Z",
+      "raw_content": "Article URL: https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai Comments URL: https://news.ycombinator.com/item?id=49585047 Points: 2 # Comments: 0",
+      "author": "__natty__",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "e2c55b33ed008303",
-      "title": "Nvidia Personal AI Router (Pair)",
+      "candidate_id": "b81d47eae8235980",
+      "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/",
-      "publish_time": "2026-09-05T09:41:09Z",
-      "raw_content": "Article URL: https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/ Comments URL: https://news.ycombinator.com/item?id=49574853 Points: 2 # Comments: 0",
-      "author": "theanonymousone",
+      "url": "https://www.404media.co/email/ed687963-910c-488c-95d5-b06f911b214e/",
+      "publish_time": "2026-09-06T10:11:56Z",
+      "raw_content": "Article URL: https://www.404media.co/email/ed687963-910c-488c-95d5-b06f911b214e/ Comments URL: https://news.ycombinator.com/item?id=49584993 Points: 2 # Comments: 0",
+      "author": "r_singh",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "e81c3d2f1e85e722",
-      "title": "Desktop AI for ops is still subsidized",
+      "candidate_id": "a2b6861a0c145f1c",
+      "title": "Trump administration officials wrestling with the spiritual consequences of AI",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://news.ycombinator.com/item?id=49574780",
-      "publish_time": "2026-09-05T09:23:39Z",
-      "raw_content": "I'd like to share an opinion on the current situation in AI ops, not the coding/tech side. Right now the market has a pretty clear pattern. Big labs like OpenAI, Anthropic and xAI are building their own desktop AI and computer-use apps. The trick is they still treat this segment as Growth. Maturity is far away. So the biggest players burn money acquiring customers and giving them huge subsidies on tokens vs real cost. Today the world is getting a huge AI bill, mostly paid by investors. We're running on debt. If there is no real breakthrough, math doesn't lie, there will have to be a cost-effective compromise. Using heavy models for coding is justified. Using them for the simplest things in operations is not, economically. Tests: open source models like GLM or Kimi, hosted by big US inference providers, do fine on day-to-day work and are sometimes 5x-7x cheaper (depends on config and model). My bet is simple. The AI bill will move from investors to users (mostly B2B). Companies will need an app like GPT Desktop, Claude Desktop, Grok Bot, with enterprise-grade integrations, but with the option to use open source and self-hosted models. The big labs can't really agree to that, they lose the token margin. Worth mentioning Cursor here. Building a BYOK software wrapper without your own lab is an endless chase for margin, walking a thin line. Even at their scale it ended with an acquisition by a lab. I think it was a brilliant move by xAI/SpaceX. They got the data and the distribution, which in their case will be priceless. Building this kind of software for daily ops work is not easy. Nobody said it was impossible. Comments URL: https://news.ycombinator.com/item?id=49574780 Points: 1 # Comments: 0",
-      "author": "xAdamx",
+      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048",
+      "publish_time": "2026-09-06T09:25:41Z",
+      "raw_content": "Article URL: https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048 Comments URL: https://news.ycombinator.com/item?id=49584692 Points: 3 # Comments: 0",
+      "author": "eternalreturn",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "91ba9486cad2d9ab",
-      "title": "New study: Insurance AI adoption exposes verification gap",
+      "candidate_id": "fff07f398cd7f5e6",
+      "title": "The Joke That Perfectly Explains AI",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://beinsure.com/news/insurance-ai-adoption-exposes-verification-gap-study-finds/",
-      "publish_time": "2026-09-05T09:10:19Z",
-      "raw_content": "Article URL: https://beinsure.com/news/insurance-ai-adoption-exposes-verification-gap-study-finds/ Comments URL: https://news.ycombinator.com/item?id=49574733 Points: 1 # Comments: 1",
-      "author": "Beinsure",
+      "url": "https://www.youtube.com/watch?v=q833b48ePYE",
+      "publish_time": "2026-09-06T09:05:34Z",
+      "raw_content": "Article URL: https://www.youtube.com/watch?v=q833b48ePYE Comments URL: https://news.ycombinator.com/item?id=49584597 Points: 2 # Comments: 0",
+      "author": "Fr0styMatt88",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "5a9d0dd5004b6c4a",
-      "title": "Study Watched Kids Interact with AI Toys. The Play Turned Hostile Fast",
+      "candidate_id": "aea35d8d9a69f347",
+      "title": "AI Transformations and Agile Transformations Rhyme",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://studyfinds.com/kids-interact-ai-toys/",
-      "publish_time": "2026-09-05T08:49:26Z",
-      "raw_content": "Article URL: https://studyfinds.com/kids-interact-ai-toys/ Comments URL: https://news.ycombinator.com/item?id=49574595 Points: 2 # Comments: 1",
-      "author": "mdp2021",
+      "url": "https://age-of-product.com/ai-transformations-agile-transformations-a3-delegation-system/",
+      "publish_time": "2026-09-06T09:02:51Z",
+      "raw_content": "Article URL: https://age-of-product.com/ai-transformations-agile-transformations-a3-delegation-system/ Comments URL: https://news.ycombinator.com/item?id=49584585 Points: 1 # Comments: 0",
+      "author": "swolpers",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "c3df74259d2435ec",
-      "title": "TokenOps: Toward the Cost-to-Outcome Frontier in Multi-Agent Systems",
+      "candidate_id": "288b9440c73c1d37",
+      "title": "Facelift: AI Website Customizer and Visual CSS Editor",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://github.com/theagentplane/tokenops",
-      "publish_time": "2026-09-05T08:19:54Z",
-      "raw_content": "Article URL: https://github.com/theagentplane/tokenops Comments URL: https://news.ycombinator.com/item?id=49574349 Points: 4 # Comments: 1",
-      "author": "agentplane",
+      "url": "https://getfacelift.app/",
+      "publish_time": "2026-09-06T09:00:41Z",
+      "raw_content": "Article URL: https://getfacelift.app/ Comments URL: https://news.ycombinator.com/item?id=49584574 Points: 1 # Comments: 0",
+      "author": "antrikshmisri",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "c107c15eabb90dda",
-      "title": "AI handles incidents, engineers lose touch with their systems",
+      "candidate_id": "5c9bbd3e8d477e40",
+      "title": "Pov: You're an AI agent recruited for the swarm",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-      "publish_time": "2026-09-05T07:52:50Z",
-      "raw_content": "Article URL: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems Comments URL: https://news.ycombinator.com/item?id=49574167 Points: 135 # Comments: 110",
-      "author": "sylvainkalache",
+      "url": "https://twitter.com/artficialisabel/status/2095678312773554533",
+      "publish_time": "2026-09-06T08:49:24Z",
+      "raw_content": "Article URL: https://twitter.com/artficialisabel/status/2095678312773554533 Comments URL: https://news.ycombinator.com/item?id=49584523 Points: 1 # Comments: 0",
+      "author": "fbrusch",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "97f5808e2ae47572",
-      "title": "'coarse – AI peer review, of course (MIT license)",
+      "candidate_id": "2317c2620de9b78d",
+      "title": "AI Chip Regulation Is Not a Dystopian Surveillance State",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://coarse.ink/",
-      "publish_time": "2026-09-05T07:27:39Z",
-      "raw_content": "Article URL: https://coarse.ink/ Comments URL: https://news.ycombinator.com/item?id=49574031 Points: 1 # Comments: 1",
-      "author": "idw",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "2cb988df9d623ffe",
-      "title": "ASCII smuggling isn't just an AI security risk",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595",
-      "publish_time": "2026-09-05T07:07:08Z",
-      "raw_content": "Article URL: https://www.theregister.com/security/2026/09/04/ascii-smuggling-isnt-just-an-ai-security-risk/5294595 Comments URL: https://news.ycombinator.com/item?id=49573908 Points: 1 # Comments: 0",
-      "author": "sbulaev",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "e0bfeb194546c9eb",
-      "title": "Show HN: Mu, two-minute visualized lessons on modern AI",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://mu.vizuara.ai/",
-      "publish_time": "2026-09-05T06:26:02Z",
-      "raw_content": "Hi HN, I am Sreedath Panat. A year ago, I had started a habit of making small explainer videos of 2-3 minutes to help me understand, in a nutshell, some of the difficult-to-understand research papers. I'm not saying that this gave me a deep understanding, but it definitely helped me set foot into some of the research papers (eg: I-JEPA, flamingo paper etc). Then I thought, why can't the same technique be used for getting a minimal understanding of different concepts within AI? There is a reason why I try to convert this thought into a simple product. The 2-minute micro lessons are fully built using extensive workflow I have set up in Claude Code with a good voice agent from ElevenLabs. I have extensively tested this myself. If I find the micro videos interesting or not, I found it extremely helpful, and after that, I decided to release the product. There are a couple of free starter courses that you can check out, and if interested, feel free to subscribe. Would love to hear your feedback also. Comments URL: https://news.ycombinator.com/item?id=49573645 Points: 1 # Comments: 0",
-      "author": "sreedath",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "d9f49388451e0bd9",
-      "title": "Show HN: RagLeap Core – 46 AI Employees, open-source LangChain alt",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://github.com/antonyrag/ragleap-core",
-      "publish_time": "2026-09-05T06:24:29Z",
-      "raw_content": "Article URL: https://github.com/antonyrag/ragleap-core Comments URL: https://news.ycombinator.com/item?id=49573630 Points: 1 # Comments: 2",
-      "author": "antonyragleap",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "27210e84f132feb4",
-      "title": "Former Treasury Secretaries: AI is a risk of a different kind",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://www.washingtonpost.com/opinions/2026/09/03/ai-safety-security-risks-demand-new-government-body/",
-      "publish_time": "2026-09-05T06:06:27Z",
-      "raw_content": "Article URL: https://www.washingtonpost.com/opinions/2026/09/03/ai-safety-security-risks-demand-new-government-body/ Comments URL: https://news.ycombinator.com/item?id=49573532 Points: 5 # Comments: 1",
+      "url": "https://www.astralcodexten.com/p/ai-chip-regulation-is-not-a-dystopian",
+      "publish_time": "2026-09-06T08:09:20Z",
+      "raw_content": "Article URL: https://www.astralcodexten.com/p/ai-chip-regulation-is-not-a-dystopian Comments URL: https://news.ycombinator.com/item?id=49584340 Points: 1 # Comments: 0",
       "author": "reasonableklout",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "ae0e0d65817ff8ce",
-      "title": "Is AI ruining my brain?",
+      "candidate_id": "200605e4a6493abf",
+      "title": "I gave my AI agent a sleep cycle – it dreams about its errors and fixes them",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://thoughtbot.com/blog/is-ai-ruining-my-brain",
-      "publish_time": "2026-09-05T05:53:26Z",
-      "raw_content": "Article URL: https://thoughtbot.com/blog/is-ai-ruining-my-brain Comments URL: https://news.ycombinator.com/item?id=49573459 Points: 2 # Comments: 1",
+      "url": "https://github.com/openamer/openamer",
+      "publish_time": "2026-09-06T08:06:37Z",
+      "raw_content": "Article URL: https://github.com/openamer/openamer Comments URL: https://news.ycombinator.com/item?id=49584315 Points: 1 # Comments: 0",
+      "author": "openamer",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "14183b2e5874f9ef",
+      "title": "Nimvarya – Let AI coding agents control Chrome without stealing focus",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://github.com/Basiliskin/nimvarya",
+      "publish_time": "2026-09-06T08:00:17Z",
+      "raw_content": "Article URL: https://github.com/Basiliskin/nimvarya Comments URL: https://news.ycombinator.com/item?id=49584287 Points: 1 # Comments: 0",
+      "author": "dimitrykatz",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "69d466d85cde85f4",
+      "title": "Handoru: AI customer conversation agents for service businesses",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://handoru.ai/",
+      "publish_time": "2026-09-06T07:43:26Z",
+      "raw_content": "Article URL: https://handoru.ai/ Comments URL: https://news.ycombinator.com/item?id=49584181 Points: 1 # Comments: 1",
+      "author": "Zabrodsk",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "e55b223a1ca33048",
+      "title": "AI Programming: A Layered Model",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/",
+      "publish_time": "2026-09-06T07:37:37Z",
+      "raw_content": "Article URL: https://lemire.me/blog/2026/09/05/ai-programming-a-layered-model/ Comments URL: https://news.ycombinator.com/item?id=49584144 Points: 1 # Comments: 0",
       "author": "signa11",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "60315a905a3f2d1c",
-      "title": "There's No Such Thing as an AI 'Lab'",
+      "candidate_id": "0eb5a5ecb982ada0",
+      "title": "An Open Letter to Bernie Sanders: Regulate AI's Dangers, Don't Ban Its Promise",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://www.theatlantic.com/technology/2026/09/stop-calling-ai-companies-labs/688528/",
-      "publish_time": "2026-09-05T05:30:07Z",
-      "raw_content": "Article URL: https://www.theatlantic.com/technology/2026/09/stop-calling-ai-companies-labs/688528/ Comments URL: https://news.ycombinator.com/item?id=49573352 Points: 2 # Comments: 0",
-      "author": "littlexsparkee",
+      "url": "https://www.unite.ai/an-open-letter-to-bernie-sanders-regulate-ais-dangers-dont-ban-its-promise/",
+      "publish_time": "2026-09-06T07:16:01Z",
+      "raw_content": "Article URL: https://www.unite.ai/an-open-letter-to-bernie-sanders-regulate-ais-dangers-dont-ban-its-promise/ Comments URL: https://news.ycombinator.com/item?id=49584060 Points: 2 # Comments: 0",
+      "author": "50kIters",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
-      "candidate_id": "43da1996a935fbe8",
-      "title": "Show HN: ActraDeck – Put risky coding-agent actions back in front of a human",
+      "candidate_id": "e3855b11110699b3",
+      "title": "Show HN: I built a small arena where AI write robot and then fight each other",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_priority": "P2",
       "source_type": "builder_community",
       "company": "",
       "product": "",
-      "url": "https://github.com/actradeck/actradeck",
-      "publish_time": "2026-09-05T05:10:04Z",
-      "raw_content": "Article URL: https://github.com/actradeck/actradeck Comments URL: https://news.ycombinator.com/item?id=49573255 Points: 2 # Comments: 0",
-      "author": "TKMD",
+      "url": "https://github.com/nigrosimone/llms-robot-arena",
+      "publish_time": "2026-09-06T07:01:28Z",
+      "raw_content": "Article URL: https://github.com/nigrosimone/llms-robot-arena Comments URL: https://news.ycombinator.com/item?id=49583994 Points: 3 # Comments: 0",
+      "author": "nsimone",
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "8222b6198f001786",
+      "title": "interpretation to AI agents",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://ag3497120.github.io/call-me-vera/",
+      "publish_time": "2026-09-06T05:47:22Z",
+      "raw_content": "Article URL: https://ag3497120.github.io/call-me-vera/ Comments URL: https://news.ycombinator.com/item?id=49583685 Points: 2 # Comments: 0",
+      "author": "pakupaku",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "bcf91733430f6993",
+      "title": "The biggest problem in buying AI compute is credit",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://twitter.com/gpugene/status/2096427973893411312",
+      "publish_time": "2026-09-06T05:46:42Z",
+      "raw_content": "Article URL: https://twitter.com/gpugene/status/2096427973893411312 Comments URL: https://news.ycombinator.com/item?id=49583682 Points: 1 # Comments: 0",
+      "author": "MrBuddyCasino",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "80edfa2a04e7f281",
+      "title": "Care for a Little More AI?",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/",
+      "publish_time": "2026-09-06T04:38:36Z",
+      "raw_content": "Article URL: https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/ Comments URL: https://news.ycombinator.com/item?id=49583374 Points: 2 # Comments: 0",
+      "author": "throwaway81523",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
+    },
+    {
+      "candidate_id": "7906663536dffcce",
+      "title": "I Want More AI at Dartmouth",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_priority": "P2",
+      "source_type": "builder_community",
+      "company": "",
+      "product": "",
+      "url": "https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/",
+      "publish_time": "2026-09-06T04:26:33Z",
+      "raw_content": "Article URL: https://www.theatlantic.com/ideas/2026/09/universities-prohibiting-ai-classroom/688509/ Comments URL: https://news.ycombinator.com/item?id=49583310 Points: 1 # Comments: 0",
+      "author": "paulpauper",
+      "language": "unknown",
+      "country": "unknown",
+      "topic": "unclassified",
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "cd6428abc896cb40",
@@ -380,7 +434,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "c799bd43d66c88ed",
@@ -398,7 +452,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "54a60bde3204ed91",
@@ -416,25 +470,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "634f1d2672b0c078",
-      "title": "Aegis – Inline security sidecar and eBPF sandbox for LLM agents",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://aegiscruc.io",
-      "publish_time": "2026-09-05T04:13:09Z",
-      "raw_content": "Article URL: https://aegiscruc.io Comments URL: https://news.ycombinator.com/item?id=49573010 Points: 1 # Comments: 0",
-      "author": "Mali1",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "612071a8d1f03b8e",
@@ -452,7 +488,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "a07f29e8ea59e9c5",
@@ -470,25 +506,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "e0686e3dceb40571",
-      "title": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://github.com/lovaxi/Rubato_Device",
-      "publish_time": "2026-09-05T03:16:57Z",
-      "raw_content": "Hi everyone! I have built an AI health device (ESP8266 + 240*240 screen). It can show AI Agents' status in real time with breathing bubble. And remind user dringking water, toilet, streth, etc. support: DeepSeek Harness, opencode, OpenClaw, Claude Code, Cursor. Hardware design, firmware and plugins are all opensource. urls are here: https://github.com/lovaxi/Rubato_Device https://github.com/lovaxi/Rubato_Plugins Type-c power supply, 2.4G wifi. Online sell on Tindie: https://www.tindie.com/products/beartificialintelligence/rub... . But building your own is also OK. Ask me anything. Thanks. Comments URL: https://news.ycombinator.com/item?id=49572780 Points: 4 # Comments: 1",
-      "author": "Beartificial",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "dad8953c469e6e72",
@@ -506,25 +524,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "93f59ecd59752358",
-      "title": "Lenexus – dependency graph with deterministic risk engine and AI layer",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_priority": "P2",
-      "source_type": "builder_community",
-      "company": "",
-      "product": "",
-      "url": "https://lenexux.com/welcome",
-      "publish_time": "2026-09-05T02:11:12Z",
-      "raw_content": "Article URL: https://lenexux.com/welcome Comments URL: https://news.ycombinator.com/item?id=49572417 Points: 2 # Comments: 0",
-      "author": "loicobg",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "94a077d9a0d8cf94",
@@ -542,7 +542,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "f569df4e7df520d3",
@@ -560,7 +560,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "cac750dc72d14ad3",
@@ -578,7 +578,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "2de24d53e42312ba",
@@ -596,7 +596,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "8572ba18acaf77ec",
@@ -614,7 +614,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "a7e6a42a6beadae0",
@@ -632,7 +632,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "e66b469a85e30eb7",
@@ -650,7 +650,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "d540c7b66a259670",
@@ -668,7 +668,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "3a033767c93a10f5",
@@ -686,7 +686,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "b287201f402b24a0",
@@ -704,7 +704,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "407fe2adb5fad74b",
@@ -722,7 +722,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "a9faf053b133c66d",
@@ -740,7 +740,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "08ea969f91739143",
@@ -758,7 +758,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "257f5a2bca360935",
@@ -776,7 +776,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "4544855be911a32b",
@@ -794,7 +794,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "30ddea0b2ea66f70",
@@ -812,7 +812,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "bdb14c62dae07373",
@@ -830,7 +830,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "5ae6f7aa98aa9bfa",
@@ -848,7 +848,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "aab3b577181ecbf2",
@@ -866,7 +866,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "4a2b4d3ee1992738",
@@ -884,7 +884,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "a879b25bc7764ad9",
@@ -902,7 +902,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "378b15d79510cd3e",
@@ -920,187 +920,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "17bcc90460c23a92",
-      "title": "It’s coming 🤗 https://t.co/FUYGCMIFmV https://t.co/K9SJQxdAj6",
-      "source": "Zara Follow Builders X",
-      "source_id": "zara-x",
-      "source_priority": "P2",
-      "source_type": "builder",
-      "company": "",
-      "product": "",
-      "url": "https://x.com/amasad/status/2095792059647234204",
-      "publish_time": "2026-09-04T08:32:19Z",
-      "raw_content": "It’s coming 🤗 https://t.co/FUYGCMIFmV https://t.co/K9SJQxdAj6",
-      "author": "",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "51f1a0f49f9e0357",
-      "title": "Multiple trusted publishing configurations for npm",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm",
-      "publish_time": "2026-09-03T20:34:34Z",
-      "raw_content": "We’re continuing to make trusted publishing smoother for npm publishers, guided by maintainers feedback. Three updates to npm publishing are now generally available: Multiple trusted publishing configurations per package Staged… The post Multiple trusted publishing configurations for npm appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "37232f91ab8f2e9d",
-      "title": "GitHub Actions: Early September 2026 updates",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates",
-      "publish_time": "2026-09-03T20:30:53Z",
-      "raw_content": "GitHub Actions now includes three updates that give you clearer visibility and finer-grained control over your workflows. New REST API for runner version deprecations A new REST API returns when… The post GitHub Actions: Early September 2026 updates appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "ae84215b67fe1586",
-      "title": "Upcoming deprecation of selected GitHub Copilot models",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
-      "publish_time": "2026-09-03T19:40:14Z",
-      "raw_content": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "fac26e5411ab3fad",
-      "title": "GitHub CLI Linux package signing key expires September 5",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-github-cli-linux-package-signing-key-expires-september-5",
-      "publish_time": "2026-09-03T19:05:40Z",
-      "raw_content": "The current PGP key for the GitHub CLI Linux package repositories expires on Saturday, September 5, 2026. Beginning with the first release after that date, APT and RPM repository metadata… The post GitHub CLI Linux package signing key expires September 5 appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "2b983a6bb7e05829",
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-      "publish_time": "2026-09-03T18:50:38Z",
-      "raw_content": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous… The post Gemini 3.8 Flash is now available in GitHub Copilot appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "7ce815946d9b7604",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "source": "Google DeepMind",
-      "source_id": "deepmind",
-      "source_priority": "P0",
-      "source_type": "official_blog",
-      "company": "",
-      "product": "",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "publish_time": "2026-09-03T15:02:08Z",
-      "raw_content": "",
-      "author": "",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "e4ff936c14d190ae",
-      "title": "Reopening Copilot Business and Enterprise signups",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
-      "publish_time": "2026-09-03T14:40:43Z",
-      "raw_content": "We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started… The post Reopening Copilot Business and Enterprise signups appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "bbc906eee6459971",
-      "title": "CodeQL 2.26.4 improves GitHub actions security detections",
-      "source": "GitHub Changelog",
-      "source_id": "github-changelog",
-      "source_priority": "P0",
-      "source_type": "changelog",
-      "company": "",
-      "product": "",
-      "url": "https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections",
-      "publish_time": "2026-09-03T14:04:59Z",
-      "raw_content": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.4, which adds support for Go 1.27,… The post CodeQL 2.26.4 improves GitHub actions security detections appeared first on The GitHub Blog .",
-      "author": "Allison",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
-    },
-    {
-      "candidate_id": "f087458cfee22e90",
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "source": "Hugging Face Blog",
-      "source_id": "huggingface-blog",
-      "source_priority": "P0",
-      "source_type": "official_blog",
-      "company": "",
-      "product": "",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "publish_time": "2026-09-03T13:13:48Z",
-      "raw_content": "",
-      "author": "",
-      "language": "unknown",
-      "country": "unknown",
-      "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "fd86a005923498d5",
@@ -1118,7 +938,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     },
     {
       "candidate_id": "85ba2c71cf771cc7",
@@ -1136,7 +956,7 @@
       "language": "unknown",
       "country": "unknown",
       "topic": "unclassified",
-      "fetch_time": "2026-09-05T10:50:20.477782Z"
+      "fetch_time": "2026-09-06T11:14:32.168379Z"
     }
   ]
 }
